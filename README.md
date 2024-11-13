@@ -1,5 +1,7 @@
 # DynamicSpamScan
 
+### Website dynamically added malware content scanner
+
 A website scanning tool that will crawl every page on your site and search for specific terms, but doesn't just check the server sent html, it loads the page in puppeteer and scans content after scrolling to the bottom of the page after the javascript has been run and inserted dynamic elements. This way it won't miss any spam content added by malware JavaScripts.
 
 Dependencies: 
